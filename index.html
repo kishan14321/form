@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Form</title>
+</head>
+<body>
+  <form action="Message.html">
+    <fieldset>
+      <legend>Personnel Details</legend>
+      <label for="sal" >Salutation</label> 
+       
+        <select name="sal" id="sal">
+            <option value="none">--None--</option>
+            <option value="Mr">Mr</option>
+            <option value="Miss">Miss</option>
+            <option value="Dr">Dr</option>
+         </select>
+        <br><br>
+        
+        <label for="fname">First Name</label>
+        &nbsp; &nbsp;
+        <input type="text" id="fname" name="fname">
+        <br><br>
+        <label for="mname">Middle Name</label>
+        <input type="text" id="mname" name="mname">
+        <br><br>
+        <label for="lname">Last Name</label>
+        &nbsp; &nbsp;
+        <input type="text" id="lname" name="lname">
+        <br><br>
+        <label for="email">Email</label>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <label for="add">Address</label><br><br>
+        <textarea name="add" id="add" cols="30" rows="10"></textarea>
+
+       
+      </fieldset>
+
+      <fieldset>
+        <legend>Educational Details</legend>
+        <br><br>
+
+        <label for="department">Department</label>
+
+        <input type="radio" id="civil" name="dept">
+        <label for="civil">CIVIL</label>
+
+        <input type="radio" id="cs" name="dept">
+        <label for="cs">CS</label>
+
+        <input type="radio" id="ec" name="dept">
+        <label for="ec">EC</label>
+        <br><br>
+
+        <label for="yop">YOG</label>
+        &nbsp; &nbsp;
+        <input list="yog" id="yop" name="yop">
+       <datalist id="yog">
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+
+        </datalist>
+        <br><br>
+        
+        <label for="skill">Skill</label>
+        
+          <br><br>
+          <input type="checkbox" id="html" name="html">
+        <label for="html">HTML</label>
+        
+        <br><br>
+        <input type="checkbox" id="java" name="java">
+        <label for="java">JAVA</label>
+       
+        <br><br>
+        <input type="checkbox" id="sql" name="sql">
+        <label for="sql">MySQL</label>
+        
+        <br><br>
+      </fieldset>
+      <input type="Submit" name="submit" id="submit">
+      </form>
+    </body>
+</html>
